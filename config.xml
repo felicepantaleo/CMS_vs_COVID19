@@ -1,0 +1,27 @@
+<config>
+  <!-- Client Control -->
+  <fold-anon v='true'/>
+
+  <!-- Folding Slot Configuration -->
+  <gpu v='false'/>
+
+  <!-- HTTP Server -->
+  <allow v='127.0.0.1 YOUR_OTHER_WORKSTATION_IP_HERE'/>
+
+  <!-- Slot Control -->
+  <power v='full'/>
+
+  <!-- User Information -->
+  <!-- passkey v='27f4bb419991f9c627f4bb419991f9c6'/ -->
+  <team v='38188'/>
+  <user v='CMS-Experiment'/>
+
+  <!-- Web Server -->
+  <web-allow v='127.0.0.1 YOUR_OTHER_WORKSTATION_IP_HERE'/>
+
+  <!-- Folding Slots -->
+  <slot id='0' type='CPU'>
+    <cpus v='-1'/>
+  </slot>
+</config>
+

@@ -5,8 +5,8 @@ config.section_("JobType")
 config.section_("Data")
 config.section_("Site")
 config.Data.publication=False
-config.Site.storageSite= 'T2_IT_Pisa'
-config.Site.whitelist= ['T2_IT_Pisa', 'T1_IT_CNAF', 'T2_IT_Legnaro']
+config.Site.storageSite= 'T2_CH_CERN'
+config.Site.whitelist= ['T2_CH_CERN']
 config.JobType.psetName='pset.py'
 config.General.transferOutputs = False
 config.General.requestName = 'test_felice'
